@@ -1,37 +1,25 @@
 # Smart Clinical Diagnostics (SCD) Devices  
-### AI-Powered Point-of-Care Testing (PoCT) Solutions  
+AI-powered Point-of-Care Testing (PoCT) systems developed under the IBITF initiative to enable fast, accessible, and low-cost medical diagnostics.
 
-Developed under the **IBITF-supported initiative**, the **Smart Clinical Diagnostics (SCD)** project series aims to create **portable, AI-driven medical devices** for rapid and accessible health diagnostics — especially in rural and low-resource settings.
-
----
-
-## 🧫 P1: SCD Detection and Automation using AI and Cell Analysis  
-An **AI-based automated microscope system** that detects **Sickle Cell Disease (SCD)** through direct blood cell image analysis.  
+## P1: SCD Detection using AI and Cell Analysis  
+An AI-based microscope that automatically detects Sickle Cell Disease (SCD) from blood cell images.  
 **Components:**  
-- **hardware**: Compact microscope with adjustable optics and embedded processor.  
-- **software**: AI algorithm for RBC shape detection and diagnostic inference.  
-- **server**: Secure backend for result storage and report generation.
+- Hardware: Compact optical setup with onboard processing  
+- Software: AI algorithms for RBC shape detection  
+- Server: Secure data storage and result management
 
----
-
-## 💉 P2: SCD Analysis using Blood Turbidity Detection  
-A **low-cost turbidity-based diagnostic system** that identifies SCD by analyzing **light scattering and opacity** in blood samples.  
+## P2: SCD Analysis using Blood Turbidity  
+A turbidity-based diagnostic system that analyzes light scattering in blood to detect SCD.  
 **Components:**  
-- **optical chamber**: Controlled lighting and diffuser for uniform imaging.  
-- **camera module**: Monochrome/IR camera for precision detection.  
-- **controller**: ESP/Arduino-based unit managing sensors and data output.  
-- **software**: Image and sensor processing for turbidity analysis.
+- Optical chamber with controlled lighting  
+- Monochrome or IR camera for precise imaging  
+- Microcontroller for data capture and processing
 
----
-
-## 🔬 P3: Analysis Probe Detection System  
-A **smart probe detection unit** ensuring calibration accuracy and reliability of diagnostic devices.  
+## P3: Analysis Probe Detection  
+A probe monitoring unit ensuring calibration accuracy and reliability for diagnostic devices.  
 **Components:**  
-- **probe unit**: Sensors for position and environment monitoring.  
-- **controller**: Real-time probe detection and calibration feedback.  
-- **interface**: Dashboard for logs and maintenance alerts.
+- Probe with integrated sensors  
+- Embedded controller for real-time monitoring  
+- Software dashboard for calibration and logs
 
----
-
-### 🌐 Vision  
-Together, **P1–P3** form an integrated diagnostic ecosystem that combines **AI, automation, and IoT** to promote **affordable, inclusive healthcare** — aligned with **IBITF’s mission for indigenous innovation** in medical technology.
+Together, P1–P3 create a modular diagnostic ecosystem using AI, automation, and IoT for inclusive and indigenous healthcare innovation.
